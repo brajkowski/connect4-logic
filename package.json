@@ -2,12 +2,13 @@
   "name": "@brajkowski/connect4-web-logic",
   "version": "1.0.0",
   "description": "The core logic and game state for a standard 7x6 connect 4 game.",
-  "private": true,
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Brandon Rajkowski",
   "license": "ISC",
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "publish:local": "npm publish --registry http://localhost:4873"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

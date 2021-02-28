@@ -1,7 +1,7 @@
 {
   "name": "@brajkowski/connect4-logic",
   "version": "1.0.0-beta.0",
-  "description": "The core logic and game state for a standard 7x6 connect 4 game.",
+  "description": "This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Brandon Rajkowski",

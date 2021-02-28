@@ -4,7 +4,7 @@ export interface Logic {
   getPlayerState(player: Player): PlayerState;
   placeChip(player: Player, column: number): number;
   didWin(player: Player): boolean;
-  didWinWithType(player: Player): { result: boolean; type?: WinType };
+  didWinWithType(player: Player): WinResult;
   boardIsFull(): boolean;
   boardIsEmpty(): boolean;
   canPlaceChip(column: number): boolean;
@@ -22,4 +22,9 @@ export enum WinType {
   Vertical,
   Horizontal,
   Diagonal,
+}
+
+export interface WinResult {
+  result: boolean;
+  type?: WinType;
 }

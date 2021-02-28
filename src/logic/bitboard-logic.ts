@@ -3,7 +3,7 @@ import { Constants } from '../util/constants';
 import { Masks } from '../util/masks';
 import { BitboardPlayerState } from './bitboard-player-state';
 import { FullColumnError } from './error/full-column-error';
-import { Logic, Player, WinType } from './logic';
+import { Logic, Player, WinResult, WinType } from './logic';
 
 export class BitboardLogic implements Logic {
   private p1: BitboardPlayerState = new BitboardPlayerState();
@@ -41,7 +41,7 @@ export class BitboardLogic implements Logic {
     );
   }
 
-  didWinWithType(player: Player): { result: boolean; type?: WinType } {
+  didWinWithType(player: Player): WinResult {
     const state = this.getPlayerState(player).getRawState();
     if (this.checkVerticalWin(state)) {
       return { result: true, type: WinType.Vertical };

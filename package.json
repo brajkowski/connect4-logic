@@ -1,15 +1,14 @@
 {
-  "name": "@brajkowski/connect4-web-logic",
-  "version": "1.0.0",
-  "description": "The core logic and game state for a standard 7x6 connect 4 game.",
+  "name": "@brajkowski/connect4-logic",
+  "version": "1.0.0-beta.0",
+  "description": "This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Brandon Rajkowski",
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "rimraf ./dist && tsc",
-    "publish:local": "npm publish --registry http://localhost:4873"
+    "build": "rimraf ./dist && tsc"
   },
   "jest": {
     "transform": {

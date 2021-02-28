@@ -1,7 +1,7 @@
 import bigInt = require('big-integer');
-import { BitboardPlayerState } from '../../logic/bitboard-player-state';
-import { PositionAlreadyOccupiedError } from '../../logic/position-already-occupied-error';
-import { Constants } from '../../util/constants';
+import { BitboardPlayerState } from '../../src/logic/bitboard-player-state';
+import { PositionAlreadyOccupiedError } from '../../src/logic/position-already-occupied-error';
+import { Constants } from '../../src/util/constants';
 
 describe('bitboard-player-state', () => {
   it('Default constructor provides an empty initialized player state', () => {

@@ -1,9 +1,9 @@
 import bigInt = require('big-integer');
-import { BitboardLogic } from '../../logic/bitboard-logic';
-import { BitboardPlayerState } from '../../logic/bitboard-player-state';
-import { FullColumnError } from '../../logic/full-column-error';
-import { Player } from '../../logic/logic';
-import { Constants } from '../../util/constants';
+import { BitboardLogic } from '../../src/logic/bitboard-logic';
+import { BitboardPlayerState } from '../../src/logic/bitboard-player-state';
+import { FullColumnError } from '../../src/logic/full-column-error';
+import { Player } from '../../src/logic/logic';
+import { Constants } from '../../src/util/constants';
 
 const logic = new BitboardLogic();
 const p1 = Player.One;

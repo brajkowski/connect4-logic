@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "rimraf ./dist && tsc",
-    "publish:local": "npm publish --registry http://localhost:4873"
+    "build": "rimraf ./dist && tsc"
   },
   "jest": {
     "transform": {

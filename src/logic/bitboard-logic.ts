@@ -1,7 +1,7 @@
 import bigInt = require('big-integer');
 import { Constants } from '../util/constants';
 import { BitboardPlayerState } from './bitboard-player-state';
-import { FullColumnError } from './full-column-error';
+import { FullColumnError } from './error/full-column-error';
 import { Logic, Player, WinType } from './logic';
 
 export class BitboardLogic implements Logic {

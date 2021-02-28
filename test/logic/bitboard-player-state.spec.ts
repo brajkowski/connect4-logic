@@ -1,6 +1,6 @@
 import bigInt = require('big-integer');
 import { BitboardPlayerState } from '../../src/logic/bitboard-player-state';
-import { PositionAlreadyOccupiedError } from '../../src/logic/position-already-occupied-error';
+import { PositionAlreadyOccupiedError } from '../../src/logic/error/position-already-occupied-error';
 import { Constants } from '../../src/util/constants';
 
 describe('bitboard-player-state', () => {

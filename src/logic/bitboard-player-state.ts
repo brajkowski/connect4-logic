@@ -1,7 +1,7 @@
 import bigInt = require('big-integer');
 import { Constants } from '../util/constants';
+import { PositionAlreadyOccupiedError } from './error/position-already-occupied-error';
 import { PlayerState } from './player-state';
-import { PositionAlreadyOccupiedError } from './position-already-occupied-error';
 
 export class BitboardPlayerState implements PlayerState {
   private state: bigInt.BigInteger;

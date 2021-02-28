@@ -1,5 +1,6 @@
 import bigInt = require('big-integer');
 import { Constants } from '../util/constants';
+import { Masks } from '../util/masks';
 import { BitboardPlayerState } from './bitboard-player-state';
 import { FullColumnError } from './error/full-column-error';
 import { Logic, Player, WinType } from './logic';
@@ -55,11 +56,11 @@ export class BitboardLogic implements Logic {
   }
 
   boardIsFull(): boolean {
-    return this.getGameState().eq(bigInt(0x3ffffffffff));
+    return this.getGameState().eq(Masks.FullBoard);
   }
 
   boardIsEmpty(): boolean {
-    return this.getGameState().eq(bigInt(0x0));
+    return this.getGameState().eq(Masks.EmptyBoard);
   }
 
   canPlaceChip(column: number): boolean {
@@ -101,7 +102,7 @@ export class BitboardLogic implements Logic {
   }
 
   private checkVerticalWin(state: bigInt.BigInteger): boolean {
-    const verticalMask = bigInt(0x204081);
+    const verticalMask = Masks.VerticalFour;
     for (let i = 0; i < 21; i++) {
       const shiftedMask = verticalMask.shiftLeft(bigInt(i));
       if (state.and(shiftedMask).eq(shiftedMask)) return true;
@@ -110,7 +111,7 @@ export class BitboardLogic implements Logic {
   }
 
   private checkHorizontalWin(state: bigInt.BigInteger): boolean {
-    const horizontalMask = bigInt(0xf);
+    const horizontalMask = Masks.HorizontalFour;
     for (let row = 0; row < Constants.rows; row++) {
       for (let column = 0; column < 4; column++) {
         const shift = bigInt(7 * row + column);
@@ -124,8 +125,8 @@ export class BitboardLogic implements Logic {
   }
 
   private checkDiagonalWin(state: bigInt.BigInteger): boolean {
-    const diagonalType1Mask = bigInt(0x208208);
-    const diagonalType2Mask = bigInt(0x1010101);
+    const diagonalType1Mask = Masks.DiagonalFourBLTR;
+    const diagonalType2Mask = Masks.DiagonalFourTLBR;
     for (let row = 0; row < 3; row++) {
       for (let column = 0; column < 4; column++) {
         const shift = bigInt(7 * row + column);

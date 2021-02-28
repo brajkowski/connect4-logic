@@ -1,5 +1,5 @@
 {
-  "name": "@brajkowski/connect4-web-logic",
+  "name": "@brajkowski/connect4-logic",
   "version": "1.0.0",
   "description": "The core logic and game state for a standard 7x6 connect 4 game.",
   "main": "dist/index.js",

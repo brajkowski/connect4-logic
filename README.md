@@ -1,4 +1,5 @@
 # Connect 4 Logic
+[![tests and build](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml/badge.svg)](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml)
 
 This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.
 

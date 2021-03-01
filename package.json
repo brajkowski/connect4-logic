@@ -7,7 +7,7 @@
   "author": "Brandon Rajkowski",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brajkowski/connect4-logic"
+    "url": "https://github.com/brajkowski/connect4-logic.git"
   },
   "keywords": [
     "connect4",

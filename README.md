@@ -1,5 +1,6 @@
 # Connect 4 Logic
 [![tests and build](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml/badge.svg)](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/brajkowski/connect4-logic/branch/main/graph/badge.svg?token=0R8Z2KRJ3L)](https://codecov.io/gh/brajkowski/connect4-logic)
 
 This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.
 

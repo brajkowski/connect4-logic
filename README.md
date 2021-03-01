@@ -85,3 +85,7 @@ The test suite may also be executed with npm:
 ```
 $ npm test
 ```
+
+## Future Plans
+
+- Generalize the solution to fit arbitrary game board dimensions.

@@ -5,6 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Brandon Rajkowski",
+  "repository": {"type": "git", "url": "https://github.com/brajkowski/connect4-logic"},
+  "keywords": ["connect4", "logic", "ts", "typescript"],
   "license": "MIT",
   "scripts": {
     "test": "jest",

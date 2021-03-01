@@ -1,12 +1,20 @@
 {
   "name": "@brajkowski/connect4-logic",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Brandon Rajkowski",
-  "repository": {"type": "git", "url": "https://github.com/brajkowski/connect4-logic"},
-  "keywords": ["connect4", "logic", "ts", "typescript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brajkowski/connect4-logic"
+  },
+  "keywords": [
+    "connect4",
+    "logic",
+    "ts",
+    "typescript"
+  ],
   "license": "MIT",
   "scripts": {
     "test": "jest",

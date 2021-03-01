@@ -69,3 +69,19 @@ logic.getPlayerState(Player.One).occupyPosition(row, column);
 ```
 
 The `PlayerState` operations allow for any chip placement, but are bounds-checked for valid row and column values as well as duplicate chip placement (ie: trying to place another chip in a position that is already occupied).
+
+## Building from Source
+
+Using npm:
+
+```
+$ npm run build
+```
+
+will produce the compiled library under `/dist`.
+
+The test suite may also be executed with npm:
+
+```
+$ npm test
+```

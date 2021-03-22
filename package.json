@@ -1,6 +1,5 @@
 {
   "name": "@brajkowski/connect4-logic",
-  "version": "1.0.0",
   "description": "This library provides APIs for manipulating and querying a standard (7x6) game of connect 4.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

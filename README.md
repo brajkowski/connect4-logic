@@ -1,6 +1,6 @@
 # Connect 4 Logic
 
-[![tests and build](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml/badge.svg)](https://github.com/brajkowski/connect4-logic/actions/workflows/main.yml)
+[![Build](https://github.com/brajkowski/connect4-logic/actions/workflows/build.yml/badge.svg)](https://github.com/brajkowski/connect4-logic/actions/workflows/build.yml)
 [![npm](https://img.shields.io/npm/v/@brajkowski/connect4-logic?color=limegreen&logo=npm)](https://www.npmjs.com/package/@brajkowski/connect4-logic)
 [![codecov](https://codecov.io/gh/brajkowski/connect4-logic/branch/main/graph/badge.svg?token=ID99K7U143)](https://codecov.io/gh/brajkowski/connect4-logic)
 

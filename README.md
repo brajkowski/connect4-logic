@@ -1,7 +1,8 @@
 # Connect 4 Logic
 
 [![Build](https://github.com/brajkowski/connect4-logic/actions/workflows/build.yml/badge.svg)](https://github.com/brajkowski/connect4-logic/actions/workflows/build.yml)
-[![npm](https://img.shields.io/npm/v/@brajkowski/connect4-logic?color=limegreen&logo=npm)](https://www.npmjs.com/package/@brajkowski/connect4-logic)
+[![npm:latest](https://img.shields.io/npm/v/@brajkowski/connect4-logic/latest?color=limegreen&logo=npm)](https://www.npmjs.com/package/@brajkowski/connect4-logic)
+[![npm:beta](https://img.shields.io/npm/v/@brajkowski/connect4-logic/beta?logo=npm)](https://www.npmjs.com/package/@brajkowski/connect4-logic)
 [![codecov](https://codecov.io/gh/brajkowski/connect4-logic/branch/main/graph/badge.svg?token=ID99K7U143)](https://codecov.io/gh/brajkowski/connect4-logic)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 

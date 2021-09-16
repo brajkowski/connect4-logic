@@ -30,7 +30,13 @@
     ]
   },
   "release": {
-    "branches": ["main", {"name": "beta", "prerelease": true}]
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
   },
   "publishConfig": {
     "access": "public"

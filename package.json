@@ -50,6 +50,6 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
-    "big-integer": "^1.6.48"
+    "big-integer": "^1.6.51"
   }
 }
